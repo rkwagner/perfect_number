@@ -1,9 +1,21 @@
 ## Synopsis
 
-The following program takes as input _ and outputs _.
+The following program takes as input an integer and outputs whether or not 
+that number is a "perfect number."
+A perfect number is defined as one in which the addition of all its divisors
+is equivalent to itself.
 
 ## Example
 
+gcc -o perfect_number perfect_number.c
+
+./perfect_number
+Enter a number to check if it is perfect: 6
+6 is perfect.
+
+./perfect_number
+Enter a number to check if it is perfect: 5
+5 is NOT perfect.  Sum is 0.
 
 ## Motivation
 
